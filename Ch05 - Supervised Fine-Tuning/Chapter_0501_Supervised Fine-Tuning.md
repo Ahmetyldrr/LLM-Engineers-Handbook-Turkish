@@ -1,7 +1,7 @@
-#Denetimli İnce Ayar (Supervised Fine-Tuning, SFT)
+# Denetimli İnce Ayar (Supervised Fine-Tuning, SFT)
 Denetimli İnce Ayar (SFT), Büyük Dil Modellerini (LLM) gerçek dünya uygulamaları için hazırlamada kritik bir adımdır. Başlangıçtaki ön eğitim (pre-training) aşamasından sonra, bir LLM'nin bir dizideki sonraki belirteci (token) tahmin etmeyi öğrenmesiyle, SFT, modelin yeteneklerini özenle seçilmiş talimat çiftleri ve karşılık gelen cevapları kullanarak iyileştirir. Bu süreç iki temel amaca hizmet eder: modele belirli bir sohbet formatını anlamayı ve takip etmeyi öğretir, böylece onu etkili bir şekilde bir konuşma aracına dönüştürür ve modelin geniş bilgi tabanını hedeflenen görevlerde veya uzmanlık alanlarında mükemmelleştirmesini sağlar. SFT'nin önemi, bir modelin genel dil anlayışıyla pratik yararlılığı arasındaki boşluğu doldurma yeteneğinde yatmaktadır. Modele istenen girdi-çıktı desenlerinin örneklerini göstererek, SFT, LLM'nin davranışını belirli hedeflere uydurur, ister görev tamamlama (özetleme veya çeviri gibi) ister alan uzmanlığı (tıbbi veya hukuki bilgi gibi) olsun. Bu özel yaklaşım, yalnızca modelin amaçlanan alanlardaki performansını arttırmakla kalmaz, aynı zamanda talimatları takip etme ve daha ilgili ve tutarlı yanıtlar üretme yeteneğini de geliştirir.
 
-#Bu Bölümde Kapsanan Konular
+# Bu Bölümde Kapsanan Konular
 Bu bölümde aşağıdaki konuları ele alacağız:
 - Yüksek kaliteli talimat veri seti oluşturma
 - SFT teknikleri
@@ -9,7 +9,7 @@ Bu bölümde aşağıdaki konuları ele alacağız:
 
 Bu bölümün sonunda, kendi talimat veri setlerinizi oluşturabilecek ve LLM'leri bunlarla verimli bir şekilde ince ayar yapabileceksiniz.
 
-#Kod Örnekleri
+# Kod Örnekleri
 Bu bölümdeki tüm kod örneklerine GitHub'da https://github.com/PacktPublishing/LLM-Engineering adresinden ulaşabilirsiniz.
 
 ### Kod Açıklaması
